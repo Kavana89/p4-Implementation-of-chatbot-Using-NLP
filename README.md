@@ -23,26 +23,29 @@ This project implements a simple banking chatbot using **Streamlit**, **scikit-l
 
 ### Requirements:
 1. Python 3.7 or later
-2. Pip for installing dependencies
+2. Pip for installing nltk,punkt,sklearn
 
 ### Steps:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/banking-chatbot.git
+    git clone https://github.com/Kavana89/banking-chatbot.git
     cd banking-chatbot
     ```
 
 2. Install the required dependencies:
     ```bash
-    pip install -r requirements.txt
+    pip install nltk
+    pip install sklearn
     ```
 
-3. Run the Streamlit app:
+3.Ensure the dataset (CSV file) is present in the specified directory (`"C:\\Users\\kavan\\Downloads\\banking instent.csv"`). 
+
+4. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
 
-4. The app will open in your default web browser. You can start interacting with the chatbot right away.
+5. The app will open in your default web browser. You can start interacting with the chatbot right away.
 
 ## How it Works
 - The chatbot uses a simple machine learning pipeline with a `CountVectorizer` to convert user input into a numeric form. Then, the `MultinomialNB` model predicts the intent behind the input.
