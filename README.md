@@ -28,8 +28,8 @@ This project implements a simple banking chatbot using **Streamlit**, **scikit-l
 ### Steps:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Kavana89/banking-chatbot.git
-    cd banking-chatbot
+    git clone https://github.com/Kavana89/p4-Implementation-of-chatbot-Using-NLP.git
+    cd p4-Implementation-of-chatbot-Using-NLP
     ```
 
 2. Install the required dependencies:
